@@ -1,0 +1,60 @@
+TRABALHANDO COM CSS
+
+FORÇA DE SELETORES:
+id > class > tag
+
+.class - a classe pode ser repetida
+
+#id - o identificador é unico
+
+.classe p - vai mexer nas tegs da classe
+
+.classe:ação - para ações como clicar e passar por cima
+
+.classe:posição - para colocar elementos fora do html
+
+-------------------------------------------------------------
+
+->SELETORES DE MESMA FORÇA
+
+tag > p - pegar somente os paragrafos pertencentes a tag referida
+
+tag + p - pegar somente o paragrafo após a tag referida
+
+tag > p + h2 - pegar o ultimo h2 q estiver no paragrafo da tag
+
+tag ~ p - pegar todos os paragrafos apos a tag referida
+
+-----------------------------------------------------------------
+
+EXCLUSÃO
+.classe p:not(#id) - vai selecionar todos paragrafos da classe menos o paragrafo q tem esse id
+
+-----------------------------------------------------------------
+
+GRADIENTE
+background: linear-gradient( cor1, cor2, cor3)
+background: radio-gradient( cor1, cor2, cor3)
+
+------------------------------------------------------------------
+
+OPACIDADE, ROTAÇÃO, CRESCIMETO E TRANSIÇÃO
+opacity: 0.5 - isso é 50% ( ainda tem como fazer em rgba(0, 0, 0, 0.3) - o ultimo numero é a opacidade)
+transform: rotate(10deg) - vai girar 10 graus
+transform: scale(20%) - vai crescer em 20%
+transition: 0.5s - em meio segundo
+
+-------------------------------------------------------------------
+
+SOMBRA NOS ELEMENTOS
+box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.589)
+	    lado1 lado2 tamanho força cor 
+text-shadow: 2px 2px rgba(102, 51, 153, 0.589)
+
+--------------------------------------------------------------------
+
+PARA DISPOSITIVOS MÓVEIS
+
+@media screen and(max-width: 480px) {
+    
+}

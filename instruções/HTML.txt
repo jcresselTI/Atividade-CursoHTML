@@ -1,0 +1,42 @@
+TRABALHANDO COM HTML
+
+TAGS
+
+<!DOCTYPE html> - qual a versão do html
+<html> - determina o inicio do documento
+<head> - é a 'cabeça' da pagina, onde ficará suas informações
+<meta> - onde se coloca o idioma utilizado na pagina
+<link> - onde se importa outros documetnos e links externos
+<title> - o titulo da pagina
+<body> - o inicio do corpo 
+<header> - a parte inicial da pagina, o cabeçalho
+<nav> - a parte de navegação do site
+<main> - parte principal do corpo da pagina
+<div> - divisoes para uma melhor separação e posicionamento de itens
+<section> - partes separadas de conteudos diferentes
+<iframe> - links externos como mapas e videos
+<ul><li> - para criação de listas
+<img> - importação de imagens
+<h1> - para textos importantes, categorizados de 1 a 6
+<p> - paragrafos comuns
+</br> - quebra de linha
+<strong> - estilização de texto em negrito
+<em> - coloca o texto em italico
+<footer> - é a parte de rodapé da pagina
+
+------------------------------------------------------------------------------
+
+IDENTIFICADORES, CLASSES E ATRIBUTOS
+
+lang = "pt-br" declara a lingua utilizada no documento
+charset="UTF-8" - esse atributo declara a codificação de caracteres da página
+rel = "stylesheet" - declara o tipo de documento a ser importado 
+href = "aaaaaaa" - recebe o endereço do link
+src = " " - recebe endereço de imagens
+
+class = "" - coloca a tag em uma classe do css
+id = "" - coloca a tag em um identificador css
+alt = "" - recebe uma breve descrição da imagem caso não tenha como vizualiza-la
+
+
+

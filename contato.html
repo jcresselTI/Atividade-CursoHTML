@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title> Contato - Site dos Hackers </title>
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="div-header">
+                <h1 class="logonome"><img class="logo" src="imagens/logo.png" alt="Logo do Site"></br>Site dos Hackers</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="nomecomleto">Nome Completo: </label>
+                <input type="text" id="nomecompleto" class="input-padrao" required>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" class="input-padrao" required
+                placeholder="email@dominio.com">
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" class="input-padrao" required
+                placeholder="(99) 99999-9999">
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                <fieldset>
+                    <legend>Como Prefere nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" 
+                        id="radio-email">Email: </label>
+                    
+    
+                    <label for="radio-telefone"><input type="radio"  name="contato"value="telefone" 
+                        id="radio-telefone">Telefone: </label>
+                    
+    
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" 
+                        id="radio-whatsapp" checked>Whatsapp: </label>
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qunal horário prefere ser atendido?</legend>
+                    <select name="" id="">
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+                </fieldset>
+
+                <label><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+
+                <input type="submit" value="Enviar" class="enviar">
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <td>Dia</td>
+                        <td>Horário</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                </tbody>
+                
+            </table>
+        </main>
+
+        <footer>
+            <img src="imagens/logo.png" alt="Imagem de Rodapé" height="200">
+            <p class="copyriht">&copy; Copyrght Site dos Hackers - 2021</p>
+        </footer>
+
+    </body>
+
+</html>
